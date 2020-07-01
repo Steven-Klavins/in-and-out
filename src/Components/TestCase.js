@@ -5,18 +5,23 @@ export class TestCase extends React.Component {
   render() {
     return (
       <div className="testCase">
-        <form>
-          <label>
-            Input:
-            <input type="text" name="input" />
-          </label>
+        <div className="inputs">
+          <form>
+            <label>
+              Input:
+              <input type="text" name="input" />
+            </label>
 
-          <label>
-            Exspected Output:
-            <input type="text" name="Output" />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
+            <label>
+              Expected Output:
+              <input type="text" name="Output" />
+            </label>
+
+            <div className="submitButton">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
       </div>
     )
   }
