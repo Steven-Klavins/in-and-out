@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+
+.plusButton {
+  color: azure;
+  display: block;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: white;
+  background-color: rgb(56, 103, 156);
+  clear: both;
+  font-size: 82px;
+  margin-left: 540px;
+}
