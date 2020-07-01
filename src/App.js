@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Table />
+      <button className="plusButton">+</button>
     </div>
   )
 }
