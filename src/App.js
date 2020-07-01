@@ -1,11 +1,11 @@
 import React from 'react'
+import Table from './Components/Table'
 import './App.css'
 
 function App() {
   return (
     <div>
-      <h1>In & Out</h1>
-      <header></header>
+      <Table />
     </div>
   )
 }
