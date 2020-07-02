@@ -4,13 +4,27 @@
 
 .plusButton {
   color: azure;
-  display: block;
   height: 90px;
   width: 90px;
   border-radius: 50%;
   border: white;
   background-color: rgb(56, 103, 156);
-  clear: both;
+  position: fixed;
+  top: 24px;
   font-size: 82px;
-  margin-left: 540px;
+  margin-left: 12px;
+  outline: 0;
+}
+
+.plusButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+}
+
+.contain {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 750px;
+  overflow: hidden;
 }
