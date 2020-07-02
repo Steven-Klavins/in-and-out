@@ -16,11 +16,10 @@ export class TestCase extends React.Component {
               Expected Output:
               <input type="text" name="Output" />
             </label>
-
-            <div className="submitButton">
-              <input type="submit" value="Submit" />
-            </div>
           </form>
+        </div>
+        <div>
+          <input type="checkbox" class="le-checkbox" />
         </div>
       </div>
     )
