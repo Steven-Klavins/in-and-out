@@ -2,36 +2,100 @@
   float: left;
   display: block;
   clear: both;
-  width: 615px;
+  width: 558px;
   margin-left: 30px;
   margin-bottom: 6px;
   background-color: rgb(206, 206, 206);
-  text-align: center;
+  padding-left: 12px;
   border-radius: 6px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(56, 103, 156);
   margin-top: 12px;
-  min-height: 30px;
+  min-height: 36px;
 }
 
 .inputs {
   display: table-cell;
-  vertical-align: middle;
   height: 60px;
-  width: 100px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .submitButton {
   float: right;
-  margin-right: 15px;
 }
 
 form {
   min-width: 600px;
 }
-
+input {
+  margin-top: 20px;
+}
 label {
   padding-right: 6px;
   padding-left: 6px;
+}
+
+.le-checkbox {
+  appearance: none;
+  position: absolute;
+  left: 540px;
+  transform: translateY(-144%);
+  background-color: #f44336;
+  width: 30px;
+  height: 30px;
+  border-radius: 40px;
+  margin: 0px;
+  outline: none;
+  transition: background-color 0.5s;
+}
+.le-checkbox:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: #ffffff;
+  width: 20px;
+  height: 5px;
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+
+.le-checkbox:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: #ffffff;
+  width: 20px;
+  height: 5px;
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+.le-checkbox:checked {
+  background-color: #4caf50;
+}
+.le-checkbox:checked:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translate(-4px, 3px) rotate(45deg);
+  background-color: #ffffff;
+  width: 12px;
+  height: 5px;
+  border-radius: 40px;
+}
+
+.le-checkbox:checked:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translate(3px, 2px) rotate(-45deg);
+  background-color: #ffffff;
+  width: 16px;
+  height: 5px;
+  border-radius: 40px;
 }
