@@ -8,3 +8,9 @@ In and out in short is a web app to aid the TDD process. Test-driven development
 
 
 ![](in-and-out.png)
+
+## Tech Stack
+There is nothing too crazy going on in this app, when hitting the plus button the test component is simply cloned.
+
+## Improvements 
+The purpose of making this app was simply to make life a little easier when it came to using input/output tables. It has occurred to me though I could expand on this project and add the ability to delete test cases, save test cases, or even add more TDD tools. I may possibly return to this in the future to do so.
