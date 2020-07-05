@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In and out in short is a web app to aid the TDD process. Test-driven development (TDD) is a development technique where you must first write a test that fails before you write new functional code. In & Out allows you to add test cases and keep track of which ones are passing as you progress through the TDD process.
 
 
-![](in-and-out.png)
+![](in-and-out.png =100x20)
 
 ## Tech Stack
 There is nothing too crazy going on in this app, when hitting the plus button the test component is simply cloned.
